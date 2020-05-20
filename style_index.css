@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	/*background: #00122E;*/
+	background-color: aliceblue;
+	padding: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	background: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/photoshop_2015-social (2).jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border-radius: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+}
+
+section {
+	box-shadow: 3px 3px 3px #6C9EE0;
+	border-radius: 20px;
+	margin: 30px 0px;
+}
+
+footer {
+	background: #2D3E58;
+	border-radius: 5px;
+	/*border: 0.5px solid #3B5173;
+	box-shadow: 5px 5px 3px #3B5173;*/
+}
+#footer {
+	display: table;
+	margin: 0 auto;
+}
+ul#list {
+	min-width: 760px;
+	list-style: none;
+}
+ul#list li {
+	display: inline;
+	padding: 0px 20px;
+}
+.foot {
+	border-left: 1px solid #FFFFFF;
+}
+
+h1, h2, h3, p, ul, ol{
+	color: aliceblue;
+}
+
+a {
+	color: #99BCE9;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #4C89D9; 
+}
+
+.text {
+	line-height: 130%;
+}
+
+#container {
+	/*background: #00122E;*/
+	background-color: aliceblue;
+	width: 1050px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding: 30px;
+}
+
+#heading {
+	font-size: 24pt;
+	padding-top: 50px;
+}
+
+#topnav a {
+	color: black;
+}
+#topnav a:hover {
+	color: #4C89D9;
+}
+#topnav {
+	font-weight: bold;
+	float: none;
+	padding: 15px 80px;
+	/*background: #00122E;*/
+	background-color: aliceblue;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.hm{
+	margin-left: 20px;
+}
+.nav {
+	padding: 5px 75px;
+	font-size: 14pt;
+	text-decoration: none;
+	border-left: 1px solid black;
+}
+#navContact {
+	border-right: 1px solid black;
+}
+
+#about {
+	background: linear-gradient(rgb(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/main_images.jpg");
+	background-color: rgba(162,210,250,1.0);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: right;
+	padding: 20px;
+	/*background-image: url("images/img_article1.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #0F0D34;*/
+}
+h1 {
+	margin-left: 480px;
+	width: 500px;
+}
+#main {
+	/*text-align: left;*/
+	margin-left: 500px;
+	width: 480px;
+}
+
+#Articles {
+	height: auto;
+	background: linear-gradient(rgb(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/img_article1.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #0F0D34;
+	text-align: left;
+	padding: 20px 30px;
+	/*background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/main_images.jpg");
+	background-color: rgba(162,210,250,1.20);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: contain;*/
+}
+.article {
+	/*margin-left: 550px;*/
+	width: 465px;
+}
+
+#dwn {
+	margin-right: 10px;
+}
+#download {
+	display: inline-block;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+	height: 40px;
+	width: 150px;
+	background: #FFFFFF;
+	text-align: center;
+	padding-top: 20px;
+}
+#download a {
+	color: #00368B;
+	text-decoration: none;
+}
+#download a:hover {
+	color: #6C9EE0;
+}
+
+
+#sub {
+	margin: 0px;
+	box-shadow: 0 0;
+	border: 0px;
+	display: inline-flex;
+}
+
+.column {
+	border-radius: 20px;
+	background: #002156;
+	padding: 0px 30px;
+	margin: 0px 29px 0px 0px;
+	width: 450px;
+	height: 260px;
+	border: 0.5px solid #6C9EE0;
+	box-shadow: 3px 3px 3px #6C9EE0;
+}
+
+#sub2{
+	background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("images/img_article2.jpg");
+	background-position: center left;
+}
+#s2 {
+	width: 380px;
+}
+
+#sub3 {
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/ste-neon.jpg");
+	background-position: top left;
+}
+#s3 {
+	width: 400px;
+}
+
+#links {
+	padding: 10px 40px 20px 40px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/adobe_press_9780134663456_adobe_photoshop_cc_classroom_1346992 (2).jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
